@@ -89,7 +89,7 @@ class Gallery {
     }
     source(nr) {
 
-        return ("projects_images/" + this.dirc + "/ (" + nr + ")." + this.file);
+        return ("projects_images/" + this.dirc + "/("+ nr +")." + this.file);
     }
 }
 var instances = [];
